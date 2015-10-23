@@ -1,0 +1,372 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18D5D7961BDA6A5C005073B2 /* 分类.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 18D5D7951BDA6A5C005073B2 /* 分类.PNG */; settings = {ASSET_TAGS = (); }; };
+		18D5D7981BDA6A63005073B2 /* Media3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18D5D7971BDA6A63005073B2 /* Media3x.png */; settings = {ASSET_TAGS = (); }; };
+		18D5D79A1BDA6A6E005073B2 /* nuoyi.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 18D5D7991BDA6A6E005073B2 /* nuoyi.jpg */; settings = {ASSET_TAGS = (); }; };
+		18D5D79C1BDA6B96005073B2 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 18D5D79B1BDA6B96005073B2 /* 1.png */; settings = {ASSET_TAGS = (); }; };
+		18E0CB151BD475EA00DF62AF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E0CB141BD475EA00DF62AF /* main.m */; };
+		18E0CB181BD475EA00DF62AF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E0CB171BD475EA00DF62AF /* AppDelegate.m */; };
+		18E0CB1B1BD475EA00DF62AF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E0CB1A1BD475EA00DF62AF /* ViewController.m */; };
+		18E0CB1E1BD475EA00DF62AF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18E0CB1C1BD475EA00DF62AF /* Main.storyboard */; };
+		18E0CB201BD475EA00DF62AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18E0CB1F1BD475EA00DF62AF /* Assets.xcassets */; };
+		18E0CB231BD475EA00DF62AF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18E0CB211BD475EA00DF62AF /* LaunchScreen.storyboard */; };
+		18E0CB3F1BD5CF3200DF62AF /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 18E0CB391BD5CF3200DF62AF /* .gitignore */; settings = {ASSET_TAGS = (); }; };
+		18E0CB401BD5CF3200DF62AF /* build-lame-framework.sh in Resources */ = {isa = PBXBuildFile; fileRef = 18E0CB3A1BD5CF3200DF62AF /* build-lame-framework.sh */; settings = {ASSET_TAGS = (); }; };
+		18E0CB411BD5CF3200DF62AF /* lame-3.99.5.tar.gz in Resources */ = {isa = PBXBuildFile; fileRef = 18E0CB3B1BD5CF3200DF62AF /* lame-3.99.5.tar.gz */; settings = {ASSET_TAGS = (); }; };
+		18E0CB421BD5CF3200DF62AF /* lame.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18E0CB3C1BD5CF3200DF62AF /* lame.framework */; settings = {ASSET_TAGS = (); }; };
+		18E0CB431BD5CF3200DF62AF /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 18E0CB3D1BD5CF3200DF62AF /* LICENSE */; settings = {ASSET_TAGS = (); }; };
+		18E0CB441BD5CF3200DF62AF /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 18E0CB3E1BD5CF3200DF62AF /* README.md */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		18D5D7951BDA6A5C005073B2 /* 分类.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "分类.PNG"; sourceTree = "<group>"; };
+		18D5D7971BDA6A63005073B2 /* Media3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Media3x.png; sourceTree = "<group>"; };
+		18D5D7991BDA6A6E005073B2 /* nuoyi.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nuoyi.jpg; sourceTree = "<group>"; };
+		18D5D79B1BDA6B96005073B2 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		18E0CB101BD475EA00DF62AF /* AVvedio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AVvedio.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18E0CB141BD475EA00DF62AF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		18E0CB161BD475EA00DF62AF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		18E0CB171BD475EA00DF62AF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		18E0CB191BD475EA00DF62AF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = ../ViewController.h; sourceTree = "<group>"; };
+		18E0CB1A1BD475EA00DF62AF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = ../ViewController.m; sourceTree = "<group>"; };
+		18E0CB1D1BD475EA00DF62AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18E0CB1F1BD475EA00DF62AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18E0CB221BD475EA00DF62AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18E0CB241BD475EA00DF62AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18E0CB391BD5CF3200DF62AF /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		18E0CB3A1BD5CF3200DF62AF /* build-lame-framework.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = "build-lame-framework.sh"; sourceTree = "<group>"; };
+		18E0CB3B1BD5CF3200DF62AF /* lame-3.99.5.tar.gz */ = {isa = PBXFileReference; lastKnownFileType = archive.gzip; path = "lame-3.99.5.tar.gz"; sourceTree = "<group>"; };
+		18E0CB3C1BD5CF3200DF62AF /* lame.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = lame.framework; sourceTree = "<group>"; };
+		18E0CB3D1BD5CF3200DF62AF /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		18E0CB3E1BD5CF3200DF62AF /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18E0CB0D1BD475EA00DF62AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18E0CB421BD5CF3200DF62AF /* lame.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18D5D7941BDA6A47005073B2 /* share */ = {
+			isa = PBXGroup;
+			children = (
+				18D5D79B1BDA6B96005073B2 /* 1.png */,
+				18D5D7951BDA6A5C005073B2 /* 分类.PNG */,
+				18D5D7971BDA6A63005073B2 /* Media3x.png */,
+				18D5D7991BDA6A6E005073B2 /* nuoyi.jpg */,
+			);
+			name = share;
+			sourceTree = "<group>";
+		};
+		18E0CB071BD475EA00DF62AF = {
+			isa = PBXGroup;
+			children = (
+				18E0CB121BD475EA00DF62AF /* AVvedio */,
+				18E0CB111BD475EA00DF62AF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18E0CB111BD475EA00DF62AF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18E0CB101BD475EA00DF62AF /* AVvedio.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18E0CB121BD475EA00DF62AF /* AVvedio */ = {
+			isa = PBXGroup;
+			children = (
+				18E0CB381BD5CF3200DF62AF /* mp3lame-for-iOS */,
+				18E0CB131BD475EA00DF62AF /* Supporting Files */,
+				18E0CB161BD475EA00DF62AF /* AppDelegate.h */,
+				18E0CB171BD475EA00DF62AF /* AppDelegate.m */,
+				18E0CB1C1BD475EA00DF62AF /* Main.storyboard */,
+				18D5D7941BDA6A47005073B2 /* share */,
+			);
+			path = AVvedio;
+			sourceTree = "<group>";
+		};
+		18E0CB131BD475EA00DF62AF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				18E0CB211BD475EA00DF62AF /* LaunchScreen.storyboard */,
+				18E0CB1F1BD475EA00DF62AF /* Assets.xcassets */,
+				18E0CB241BD475EA00DF62AF /* Info.plist */,
+				18E0CB141BD475EA00DF62AF /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		18E0CB381BD5CF3200DF62AF /* mp3lame-for-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				18E0CB191BD475EA00DF62AF /* ViewController.h */,
+				18E0CB1A1BD475EA00DF62AF /* ViewController.m */,
+				18E0CB391BD5CF3200DF62AF /* .gitignore */,
+				18E0CB3A1BD5CF3200DF62AF /* build-lame-framework.sh */,
+				18E0CB3B1BD5CF3200DF62AF /* lame-3.99.5.tar.gz */,
+				18E0CB3C1BD5CF3200DF62AF /* lame.framework */,
+				18E0CB3D1BD5CF3200DF62AF /* LICENSE */,
+				18E0CB3E1BD5CF3200DF62AF /* README.md */,
+			);
+			path = "mp3lame-for-iOS";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18E0CB0F1BD475EA00DF62AF /* AVvedio */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18E0CB271BD475EA00DF62AF /* Build configuration list for PBXNativeTarget "AVvedio" */;
+			buildPhases = (
+				18E0CB0C1BD475EA00DF62AF /* Sources */,
+				18E0CB0D1BD475EA00DF62AF /* Frameworks */,
+				18E0CB0E1BD475EA00DF62AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AVvedio;
+			productName = AVvedio;
+			productReference = 18E0CB101BD475EA00DF62AF /* AVvedio.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18E0CB081BD475EA00DF62AF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = apple;
+				TargetAttributes = {
+					18E0CB0F1BD475EA00DF62AF = {
+						CreatedOnToolsVersion = 7.0;
+					};
+				};
+			};
+			buildConfigurationList = 18E0CB0B1BD475EA00DF62AF /* Build configuration list for PBXProject "AVvedio" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18E0CB071BD475EA00DF62AF;
+			productRefGroup = 18E0CB111BD475EA00DF62AF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18E0CB0F1BD475EA00DF62AF /* AVvedio */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18E0CB0E1BD475EA00DF62AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18D5D79C1BDA6B96005073B2 /* 1.png in Resources */,
+				18D5D79A1BDA6A6E005073B2 /* nuoyi.jpg in Resources */,
+				18E0CB401BD5CF3200DF62AF /* build-lame-framework.sh in Resources */,
+				18E0CB3F1BD5CF3200DF62AF /* .gitignore in Resources */,
+				18D5D7961BDA6A5C005073B2 /* 分类.PNG in Resources */,
+				18E0CB411BD5CF3200DF62AF /* lame-3.99.5.tar.gz in Resources */,
+				18E0CB431BD5CF3200DF62AF /* LICENSE in Resources */,
+				18E0CB231BD475EA00DF62AF /* LaunchScreen.storyboard in Resources */,
+				18E0CB201BD475EA00DF62AF /* Assets.xcassets in Resources */,
+				18E0CB1E1BD475EA00DF62AF /* Main.storyboard in Resources */,
+				18D5D7981BDA6A63005073B2 /* Media3x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18E0CB0C1BD475EA00DF62AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18E0CB1B1BD475EA00DF62AF /* ViewController.m in Sources */,
+				18E0CB181BD475EA00DF62AF /* AppDelegate.m in Sources */,
+				18E0CB441BD5CF3200DF62AF /* README.md in Sources */,
+				18E0CB151BD475EA00DF62AF /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		18E0CB1C1BD475EA00DF62AF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18E0CB1D1BD475EA00DF62AF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		18E0CB211BD475EA00DF62AF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18E0CB221BD475EA00DF62AF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18E0CB251BD475EA00DF62AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		18E0CB261BD475EA00DF62AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18E0CB281BD475EA00DF62AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/AVvedio/mp3lame-for-iOS",
+				);
+				INFOPLIST_FILE = AVvedio/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.haha.AVvedio;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		18E0CB291BD475EA00DF62AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/AVvedio/mp3lame-for-iOS",
+				);
+				INFOPLIST_FILE = AVvedio/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.haha.AVvedio;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18E0CB0B1BD475EA00DF62AF /* Build configuration list for PBXProject "AVvedio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18E0CB251BD475EA00DF62AF /* Debug */,
+				18E0CB261BD475EA00DF62AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18E0CB271BD475EA00DF62AF /* Build configuration list for PBXNativeTarget "AVvedio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18E0CB281BD475EA00DF62AF /* Debug */,
+				18E0CB291BD475EA00DF62AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18E0CB081BD475EA00DF62AF /* Project object */;
+}
